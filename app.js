@@ -16,7 +16,7 @@ function limparCampo(){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Tente adivinhar o número entre 1 e 50');
+    exibirTextoNaTela('p', 'Tente adivinhar o número entre 1 e 10');
 }
 function verificarChute(){
     let chute = document.querySelector('input').value;
